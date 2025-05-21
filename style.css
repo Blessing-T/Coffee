@@ -64,7 +64,11 @@
         }
         
         /* Hero Section */
+        .container{
+            
+        }
         .hero {
+            
             position: relative;
             background-color: #fff;
             overflow: hidden;
@@ -76,7 +80,9 @@
         }
         
         .hero-text {
-            width: 40%;
+            width: 30%;
+            padding-top: 180px;
+            
         }
         
         .hero-image {
@@ -93,7 +99,7 @@
             color: #f9b95a;
             opacity: 0.8;
             z-index: 1;
-            top: 50%;
+            top: 25%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -113,31 +119,23 @@
         }
         
         .bean-1 {
-            top: 20%;
+            
             left: 30%;
             
         }
         
-       
-        
-        
         .hero-title {
-            font-size: 32px;
+            font-size: 30px;
             color: #4a3520;
             line-height: 1.2;
             margin-bottom: 15px;
             text-align: left;
-            margin-top: -300px;
-        }
-        
-        .hero-subtitle {
-            font-size: 42px;
-            color: #8b4513;
-            margin-bottom: 20px;
+            margin-top: -200px;
+            margin-left: 20px;
         }
         
         .btn {
-            
+            margin-left:-200px;
             padding: 10px 25px;
             background-color: #8b4513;
             color: #fff;
@@ -145,6 +143,18 @@
             font-weight: bold;
             border-radius: 4px;
             transition: background-color 0.3s;
+
+        }
+        .btn1 {
+            margin-left: -50px;
+            padding: 10px 25px;
+            background-color: #8b4513;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            
 
         }
         
@@ -158,8 +168,9 @@
         }
         
         .about-content {
+            padding-bottom:80px;
             display: flex;
-            justify-content: space-between;
+            
         }
         
         .about-text {
@@ -174,12 +185,16 @@
         
         .about-description {
             color: #4a3520;
-            line-height: 1.6;
+            line-height: 1;
             margin-bottom: 20px;
+            text-align: left;
+            margin-left:20px;
+            
         }
         
         /* Sidebar */
         .sidebar {
+            margin-top: -400px;
             margin-left: 700px;
             width: 35%;
             background-color: #4a3520;
@@ -251,7 +266,9 @@
       
         
 .container1 {
-            max-width: 1200px;
+    
+            padding-top: 100px;
+            max-width: 100%;
             margin: 0 auto;
             display: flex;
         }
